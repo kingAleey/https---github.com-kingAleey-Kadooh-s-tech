@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Data App</title>
+  <link rel="stylesheet" href="./signup.css">
+   
+  <header class="firstheader">
+    <h2>Sign up to<br>Kadooh's Tech  </h2>
+</header>
+</head>
+
+
+<body class="body">
+    <!-- signuppage -->
+   
+        
+        <div class="signup-box">
+        <div class="input-group">
+            <label>Full Name:</label> <br>
+            <input type="text" id="name"
+            placeholder="           Input Full-Name">
+        </div>
+
+        
+        <div class="input-group">
+            <label>Username:</label> <br>
+            <input type="text" id="Username"
+            placeholder="           Create Username">
+          
+        </div>
+
+        <div class="input-group">
+            <label>Phone-Number:</label> <br>
+            <input type="tel" id="number"
+            placeholder="         Input Phone-Number">
+        </div>
+
+       
+      
+        <div class="input-group">
+            <label>Email:</label> <br>
+            <input type="email" id="email"
+            placeholder="               Input Email">
+          
+        </div>
+
+         
+        <div class="input-group">
+            <label>Password:</label> <br>
+            <input type="password" id="password"
+            placeholder="             Create Password">
+          
+        </div>
+
+          
+        <div class="input-group">
+            <label>Transaction Pin:</label> <br>
+            <input type="password" id="password"
+            placeholder="        Create Transaction Pin">
+          
+        </div>
+
+        
+        <div class="agreetoterms">
+            <label><input type="checkbox">  By registering i agree to Kadooh's Tech <a onclick="redirecttoterms()" href="#" class="register-link">Terms And Condition</a></label>
+        </div>
+
+
+
+
+        <button type="submit" id="buttonreset" value="Signin" class="btn">Sign up</button>
+        
+
+          <div class="login-register">
+            <p>Have an account? <a href="#" class="register-link" onclick="redirecttohomee()">Sign in</a></p>
+            
+        
+        <script>function redirecttohomee() {
+            window.location.href = 'index.html';
+        }</script>
+        </div>
+
+
+
+        
+       
+        <script>function redirecttoterms() {
+            window.location.href = 'terms.html';
+        }</script>
+
+
+       
+            
+            <script src="app.js"></script>  
+     </body>
+</html>
+

@@ -10,7 +10,7 @@
   <header class="firstheaderforgot">
     <h2>Reset<br>Your Password  </h2>
 </header>
-<h5 class="directs"></h5>
+<h5 class="directs">Please enter the email adress associated with your account and we will send you a link to reset your password</h5>
 </head>
 
 
@@ -18,12 +18,20 @@
     <!-- siginppage -->
    
         
-        <div class="email-box">
+       
         <div class="input-groupreset">
             <label>Email:</label> <br>
             <input type="text" id="name"
             placeholder="               Input Email">
         </div>
 
-        <button type="submit" id="button" value="Signup" class="btnreset" >Proceed</button>
+        <button type="submit" id="buttonreset" value="Signup" class="btnreset" >Proceed</button>
+        <div id="popup-message" style="display: none;">
+            <p>
+                Successfully Sent! <br> <br>We've emailed you instructions for setting your password, if an account exists with the email you entered. if you don't receive email, please make sure yo've entered the adress you registered with, also check your spam folder.
+            </p>
+            <button id="ok-botton">Ok</button>
+
+        </div>
+        <script src="forgotpass.js"></script>
 </body>

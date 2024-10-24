@@ -1,0 +1,64 @@
+
+.btnreset {
+    width: 51%;
+    height: 1.9rem;
+    font-size: 14px;
+    color: #e4e4e4;
+    font-weight: bold;
+    background-color: rgb(78, 81, 85);
+    border: none;
+    margin-left: 85px;
+    margin-top: 8%;
+    margin-bottom: 2rem;
+}
+.input-groupreset{
+    margin-left: 19%;
+    font-family: cursive;
+    
+}
+.directs{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-groupreset input{
+font-family: cursive;
+}
+.firstheaderforgot{
+    padding-top: 6%;
+color: rgb(0, 0, 0); 
+text-align: center;
+font-family: cursive;
+font-weight: 3000;
+}
+
+.bodyreset{
+    background-color: #e4e4e4;
+    padding-top: 0rem;
+    border: 3px solid #4e4e4e;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30%;
+    margin-bottom: 6%;
+}
+
+#popup-message{
+    position: fixed;
+    top: -3%;
+    font-weight: 600;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #e4e4e4;
+    border-radius: 20%;
+    border: 4px solid rgb(59, 58, 58);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 12px 12px 12px rgb(0, 0, 0);
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#popup-message p{
+    margin-bottom: 20px;
+}

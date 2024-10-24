@@ -1,0 +1,84 @@
+
+.signup-box{
+    width: 300px;
+    padding-bottom: 40px;
+    background-color: transparent;
+}
+.input-group{
+    margin-top: 15px;
+    padding-left: 17%;
+    font-family: cursive;
+}
+.input-group input{
+    width: 90%;
+    box-sizing: content-box;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 6px;
+    padding-top: 10px;
+    font-size: medium;
+}
+.body{
+   background-color: #e4e4e4;
+   padding-top: 0rem;
+   border: 3px solid #4e4e4e;
+   border-radius: 40px;
+   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+   margin-top: 6%;
+   margin-bottom: 6%;
+}
+
+.login-registersign {
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: 500;
+    margin-left: 6%;
+    margin-top: 2px;
+}
+
+.login-registersign p a {
+    color: rgb(117, 95, 197);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.firstheader {
+padding-top: 6%;
+color: rgb(0, 0, 0); 
+text-align: center;
+font-family: cursive;
+font-weight: 3000;
+}
+.agreetoterms{
+    font-family: cursive;
+    font-size: smaller;
+    padding-left: 6%;
+    padding-top: 3%;
+
+}
+
+.btn {
+    width: 51%;
+    height: 1.9rem;
+    font-size: 14px;
+    color: #e4e4e4;
+    font-weight: bold;
+    background-color: rgb(78, 81, 85);
+    border: none;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+
+.login-register {
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.login-register p a {
+    color: rgb(117, 95, 197);
+    font-weight: 600;
+    text-decoration: none;
+}
